@@ -3,7 +3,7 @@ package users_db
 import (
 	"database/sql"
 	"fmt"
-	_ "github.com/go-sql-driver/mysql"
+	_"github.com/go-sql-driver/mysql"
 	"log"
 	"os"
 )
@@ -13,9 +13,9 @@ const (
 	mysql_users_host 		= "mysql_users_host"
 	mysql_users_schema 		= "mysql_users_schema"
 )
-var (
-	Client *sql.DB
 
+var Client *sql.DB
+var (
 	username = 	os.Getenv(mysql_users_username)
 	password = 	os.Getenv(mysql_users_password)
 	host = 		os.Getenv(mysql_users_host)
@@ -28,7 +28,8 @@ func init() {
 	)
 	log.Println(fmt.Sprintf("about to connect to %s", dataSourceName))
 	var err error
-	Client, err := sql.Open("mysql", dataSourceName)
+
+	Client, err = sql.Open("mysql", dataSourceName)
 	if err != nil {
 		panic(err)
 	}
@@ -36,5 +37,4 @@ func init() {
 	if err = Client.Ping(); err != nil {
 		panic(err)
 	}
-
 }
