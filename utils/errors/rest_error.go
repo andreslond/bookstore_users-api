@@ -1,6 +1,9 @@
 package errors
 
-import "net/http"
+import (
+	"errors"
+	"net/http"
+)
 
 type RestErr struct {
 	Message string 	`json:"message"`
@@ -14,6 +17,10 @@ func NewBadRequestError(message string) *RestErr {
 		Status: http.StatusBadRequest,
 		Error: "bad_request",
 	}
+}
+
+func NewError(msg string) error {
+	return errors.New(msg)
 }
 
 func NewNotFoundError(message string) *RestErr {
