@@ -4,7 +4,7 @@ import "time"
 
 const (
 	apiDateLayout	= "2006-01-20T15:04:05Z"
-	apiDbLayout 	= "2006-01-20 15:04:05"
+	apiDbLayout 	= "2006-01-02 15:04:05"
 )
 
 func GetNow() time.Time {
@@ -16,5 +16,5 @@ func GetNowString() string {
 }
 
 func GetNowDBFormat() string {
-	return time.Now().Format(apiDbLayout);
+	return GetNow().Format(apiDbLayout)
 }
