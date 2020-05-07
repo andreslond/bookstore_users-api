@@ -19,11 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54158bbd-a300-4c6c-a33f-ff806934a82d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bookstore_users-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bookstore_users-api.iml" afterDir="false" />
+    <list default="true" id="76d6a82a-952d-40ab-be41-94fc728959f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/users/users_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/users/users_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/users/user_dao.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/users/user_dao.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/users/user_dto.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/users/user_dto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/items_service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/users_sevice.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/users_sevice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/errors/rest_error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/mysql_utils/mysql_utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mysql_utils/mysql_utils.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,35 +40,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ba9zQnjwfPLT2pJnDDIv0OkiSH" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1baRyVMtcT5a7hDscFJUYA3xnrQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bookstore_utils-go" />
   </component>
   <component name="RunManager">
-    <configuration name="go build bookstore_users-api/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/andrestor2/bookstore_users-api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bookstore_users-api" />
       <working_directory value="$PROJECT_DIR$/" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/andrestor2/bookstore_users-api" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build bookstore_users-api/" />
+        <item itemvalue="Go Build.go build github.com/andrestor2/bookstore_users-api" />
       </list>
     </recent_temporary>
   </component>
@@ -79,30 +82,32 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-769" y="627" key="#Go_Modules" timestamp="1588859799481">
+    <state x="-787" y="542" key="FileChooserDialogImpl" timestamp="1588870339067">
       <screen x="-1366" y="423" width="1366" height="728" />
     </state>
-    <state x="-769" y="627" key="#Go_Modules/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588859799481" />
-    <state x="-676" y="657" key="#Notifications" timestamp="1588859778939">
-      <screen x="-1366" y="423" width="1366" height="728" />
+    <state x="-787" y="542" key="FileChooserDialogImpl/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588870339067" />
+    <state width="1877" height="176" key="GridCell.Tab.0.bottom" timestamp="1588873997842">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-676" y="657" key="#Notifications/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588859778939" />
-    <state x="-1107" y="449" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588860175887">
-      <screen x="-1366" y="423" width="1366" height="728" />
+    <state width="1088" height="176" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588868813129" />
+    <state width="1877" height="176" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588873997842" />
+    <state width="1877" height="176" key="GridCell.Tab.0.center" timestamp="1588873997842">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1107" y="449" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588860175887" />
-    <state x="-668" y="654" key="EnvironmentVariablesDialog" timestamp="1588859797331">
-      <screen x="-1366" y="423" width="1366" height="728" />
+    <state width="1088" height="176" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588868813128" />
+    <state width="1877" height="176" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588873997842" />
+    <state width="1877" height="176" key="GridCell.Tab.0.left" timestamp="1588873997841">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-668" y="654" key="EnvironmentVariablesDialog/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588859797331" />
-    <state x="-781" y="549" key="FileChooserDialogImpl" timestamp="1588859794055">
-      <screen x="-1366" y="423" width="1366" height="728" />
+    <state width="1088" height="176" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588868813128" />
+    <state width="1877" height="176" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588873997841" />
+    <state width="1877" height="176" key="GridCell.Tab.0.right" timestamp="1588873997842">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-781" y="549" key="FileChooserDialogImpl/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588859794055" />
+    <state width="1088" height="176" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588868813129" />
+    <state width="1877" height="176" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588873997842" />
   </component>
 </project>
