@@ -5,12 +5,12 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-var(
+var (
 	router = gin.Default()
 )
 
 func StartApplication() {
 	mapUrls()
 	logger.Info("about to start the application...")
-	router.Run(":4200")
+	router.Run(":8081")
 }
