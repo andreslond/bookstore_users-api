@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54158bbd-a300-4c6c-a33f-ff806934a82d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bookstore_users-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bookstore_users-api.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ba9zQnjwfPLT2pJnDDIv0OkiSH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build bookstore_users-api/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bookstore_users-api" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build bookstore_users-api/" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-769" y="627" key="#Go_Modules" timestamp="1588859799481">
+      <screen x="-1366" y="423" width="1366" height="728" />
+    </state>
+    <state x="-769" y="627" key="#Go_Modules/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588859799481" />
+    <state x="-676" y="657" key="#Notifications" timestamp="1588859778939">
+      <screen x="-1366" y="423" width="1366" height="728" />
+    </state>
+    <state x="-676" y="657" key="#Notifications/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588859778939" />
+    <state x="-1107" y="449" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588860175887">
+      <screen x="-1366" y="423" width="1366" height="728" />
+    </state>
+    <state x="-1107" y="449" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588860175887" />
+    <state x="-668" y="654" key="EnvironmentVariablesDialog" timestamp="1588859797331">
+      <screen x="-1366" y="423" width="1366" height="728" />
+    </state>
+    <state x="-668" y="654" key="EnvironmentVariablesDialog/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588859797331" />
+    <state x="-781" y="549" key="FileChooserDialogImpl" timestamp="1588859794055">
+      <screen x="-1366" y="423" width="1366" height="728" />
+    </state>
+    <state x="-781" y="549" key="FileChooserDialogImpl/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588859794055" />
+  </component>
+</project>
