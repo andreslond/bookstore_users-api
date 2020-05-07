@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76d6a82a-952d-40ab-be41-94fc728959f6" name="Default Changelist" comment="" />
+    <list default="true" id="76d6a82a-952d-40ab-be41-94fc728959f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,20 +33,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
   <component name="ProjectId" id="1baRyVMtcT5a7hDscFJUYA3xnrQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bookstore_utils-go" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Go/src/github.com/andrestor2/bookstore_oauth-api" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build github.com/andrestor2/bookstore_users-api">
     <configuration name="go build github.com/andrestor2/bookstore_users-api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bookstore_users-api" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -52,9 +64,18 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bookstore_users-api" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build github.com/andrestor2/bookstore_users-api" />
+        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -73,30 +94,41 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="-787" y="542" key="FileChooserDialogImpl" timestamp="1588870339067">
-      <screen x="-1366" y="423" width="1366" height="728" />
+    <state x="752" y="353" key="#Go_Modules" timestamp="1588886030244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="353" key="#Go_Modules/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588886030244" />
+    <state x="814" y="170" key="FileChooserDialogImpl" timestamp="1588886840404">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-787" y="542" key="FileChooserDialogImpl/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588870339067" />
-    <state width="1877" height="176" key="GridCell.Tab.0.bottom" timestamp="1588873997842">
+    <state x="814" y="170" key="FileChooserDialogImpl/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588886840404" />
+    <state width="1877" height="167" key="GridCell.Tab.0.bottom" timestamp="1588887917585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1088" height="176" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588868813129" />
-    <state width="1877" height="176" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588873997842" />
-    <state width="1877" height="176" key="GridCell.Tab.0.center" timestamp="1588873997842">
+    <state width="1877" height="167" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588887917585" />
+    <state width="1877" height="167" key="GridCell.Tab.0.center" timestamp="1588887917584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1088" height="176" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588868813128" />
-    <state width="1877" height="176" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588873997842" />
-    <state width="1877" height="176" key="GridCell.Tab.0.left" timestamp="1588873997841">
+    <state width="1877" height="167" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588887917584" />
+    <state width="1877" height="167" key="GridCell.Tab.0.left" timestamp="1588887917584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1088" height="176" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588868813128" />
-    <state width="1877" height="176" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588873997841" />
-    <state width="1877" height="176" key="GridCell.Tab.0.right" timestamp="1588873997842">
+    <state width="1877" height="167" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588887917584" />
+    <state width="1877" height="167" key="GridCell.Tab.0.right" timestamp="1588887917584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1088" height="176" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.423.1366.728@-1366.423.1366.728" timestamp="1588868813129" />
-    <state width="1877" height="176" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588873997842" />
+    <state width="1877" height="167" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.423.1366.728@0.0.1920.1040" timestamp="1588887917584" />
   </component>
 </project>
