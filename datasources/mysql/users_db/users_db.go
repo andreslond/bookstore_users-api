@@ -3,23 +3,24 @@ package users_db
 import (
 	"database/sql"
 	"fmt"
-	_"github.com/go-sql-driver/mysql"
+	"github.com/go-sql-driver/mysql"
 	"log"
 	"os"
 )
+
 const (
-	mysql_users_username 	= "mysql_users_username"
-	mysql_users_password 	= "mysql_users_password"
-	mysql_users_host 		= "mysql_users_host"
-	mysql_users_schema 		= "mysql_users_schema"
+	mysql_users_username = "mysql_users_username"
+	mysql_users_password = "mysql_users_password"
+	mysql_users_host     = "mysql_users_host"
+	mysql_users_schema   = "mysql_users_schema"
 )
 
 var (
-	Client *sql.DB
-	username = 	os.Getenv(mysql_users_username)
-	password = 	os.Getenv(mysql_users_password)
-	host = 		os.Getenv(mysql_users_host)
-	schema = 	os.Getenv(mysql_users_schema)
+	Client   *sql.DB
+	username = os.Getenv(mysql_users_username)
+	password = os.Getenv(mysql_users_password)
+	host     = os.Getenv(mysql_users_host)
+	schema   = os.Getenv(mysql_users_schema)
 )
 
 func init() {
@@ -37,4 +38,5 @@ func init() {
 	if err = Client.Ping(); err != nil {
 		panic(err)
 	}
+	mysql.SetLogger(logger.GetLogger())
 }
