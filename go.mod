@@ -8,4 +8,5 @@ require (
 	github.com/federicoleon/golang-restclient v0.0.0-20191104170228-162ed620df66 // indirect
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-sql-driver/mysql v1.5.0
+	go.uber.org/zap v1.15.0 // indirect
 )

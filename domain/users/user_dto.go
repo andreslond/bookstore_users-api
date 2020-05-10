@@ -10,18 +10,18 @@ const (
 )
 
 type User struct {
-	Id 			int64 	`json:"id"`
-	FirstName 	string	`json:"first_name"`
-	LastName 	string	`json:"last_name"`
-	Email 		string	`json:"email"`
-	DateCreated string	`json:"date_created"`
-	Status		string	`json:status`
-	Password	string 	`json:"password"`
+	Id          int64  `json:"id"`
+	FirstName   string `json:"first_name"`
+	LastName    string `json:"last_name"`
+	Email       string `json:"email"`
+	DateCreated string `json:"date_created"`
+	Status      string `json:status`
+	Password    string `json:"password"`
 }
 
 type Users []User
 
-func (user *User)Validate() *rest_errors.RestErr {
+func (user *User) Validate() rest_errors.RestErr {
 	user.FirstName = strings.TrimSpace(strings.ToLower(user.FirstName))
 	user.LastName = strings.TrimSpace(strings.ToLower(user.LastName))
 	user.Email = strings.TrimSpace(strings.ToLower(user.Email))
@@ -34,4 +34,3 @@ func (user *User)Validate() *rest_errors.RestErr {
 	}
 	return nil
 }
-
